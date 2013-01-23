@@ -2,6 +2,9 @@
 	#引入檔  class.phpmailer.php 會引入 pop3 and smtp 兩隻class
 	require_once('class.phpmailer.php');
 	
+	echo "test";
+	
+	
 	#呼叫
 	//PHPmailer 並指定 $mail 變數
 	$mail             = new PHPMailer(); 
